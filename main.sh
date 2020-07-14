@@ -17,9 +17,9 @@ docker build -t firefoximg .
 docker run  -p 4050 chromeimg
 docker run  -p 4051 firefoximg
 
-screenshot.py chrome {inputurl}
+python screenshot.py chrome {inputurl}
 
-screenshot.py firefox {inputurl}
+python screenshot.py firefox {inputurl}
 
 # please update your s3 bucket details here
 
