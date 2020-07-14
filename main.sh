@@ -14,8 +14,8 @@ cd $dir
 cd Firefox
 docker build -t firefoximg .
 
-docker run chromeimg --port 4050
-docker run firefoximg --port 4051
+docker run  -p 4050 chromeimg
+docker run  -p 4051 firefoximg
 
 screenshot.py chrome {inputurl}
 
