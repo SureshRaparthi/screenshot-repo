@@ -21,7 +21,7 @@ screenshot.py chrome {inputurl}
 
 screenshot.py firefox {inputurl}
 
-# please update you s3 bucket here
+# please update your s3 bucket details here
 
 aws s3 cp "chrome_screenshot.png" "s3://bucket2test123/chrome_screenshot.png" --region=ap-south-1 --output=json
 
