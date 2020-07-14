@@ -1,6 +1,6 @@
 #!/bin/sh
 
-inputurl = $1
+inputurl=$1
 dir=`pwd`
 
 cd $dir
