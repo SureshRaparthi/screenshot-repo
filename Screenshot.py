@@ -10,7 +10,7 @@ browser=""
 port=""
 screenshot=""
 
-if(param="chrome"):
+if(param == "chrome"):
     browser=DesiredCapabilities.CHROME
     port=4050
     screenshot="chrome_screenshot.png"
