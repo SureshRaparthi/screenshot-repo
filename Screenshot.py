@@ -12,11 +12,11 @@ screenshot=""
 
 if(param == "chrome"):
     browser=DesiredCapabilities.CHROME
-    port=4050
+    port="4050"
     screenshot="chrome_screenshot.png"
 else:
     browser=DesiredCapabilities.FIREFOX
-    port=4051
+    port="4051"
     screenshot="firefox_screenshot.png"
 
 driver = webdriver.Remote(
