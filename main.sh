@@ -17,6 +17,8 @@ docker build -t firefoximg .
 docker run -d  -p 4050 chromeimg
 docker run -d -p 4051 firefoximg
 
+cd $dir
+
 python screenshot.py chrome {inputurl}
 
 python screenshot.py firefox {inputurl}
